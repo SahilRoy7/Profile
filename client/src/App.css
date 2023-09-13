@@ -1,0 +1,473 @@
+@import url('https://fonts.googleapis.com/css2?family=Carter+One&family=Source+Sans+Pro:wght@200&display=swap');
+
+.App {
+  text-align: center;
+}
+
+.profile1-img{
+  max-width: 100%; /* Ensure the image doesn't exceed the div's size */
+  max-height: 100%;
+  border-radius: 50%;
+  border: 2px solid black;
+  margin: 2px;
+}
+
+.profile-edit-button{
+  margin-top: 1cm;
+  background-color: #c0caf5;
+  border-radius: 10px;
+}
+
+.profile-edit-button:hover{
+  transform: scale(1.1); /* Scale up the button on hover */
+  box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-img{
+  margin-top: 2cm;
+  margin-left: 4cm;
+  border-radius: 50%;
+  width: 4cm;
+  height: 4cm;
+  border: 4px double solid black;
+  display: flex; /* Align image vertically and horizontally */
+  justify-content: center;
+  align-items: center;
+  box-shadow: 5px rgb(70, 62, 62);
+}
+
+#home-tab{
+  padding-left: 2px;
+  color:#9744bb;
+  margin-left: 105px;
+  font-size: large;
+  text-decoration: none;
+  font-weight:500;
+}
+#profile-tab{
+  padding-left: 2px;
+  color:#56acc4;
+  margin-left: 220px;
+  font-size: large;
+  text-decoration: none;
+  font-weight:500;
+}
+
+.utube{
+  width:30px;
+  height: 20px;
+  color: #3d5c9b;
+}
+
+.insta{
+  width:20px;
+  height: 20px;
+}
+
+.tele{
+  width:30px;
+  height: 20px;
+}
+
+.leet{
+  width:20px;
+  height: 20px;
+}
+
+.codnin{
+  width:20px;
+  height: 20px;
+}
+
+.linkin{
+  width:20px;
+  height: 20px;
+}
+
+#profile-tab:hover, #home-tab:hover {
+  font-weight:bold;
+  color:#3d5c9b;
+}
+
+.profile-head{
+  margin-top: 2.5cm;
+}
+
+.emp-profile{
+  justify-content: center;
+  align-items: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.Profile-work{
+  margin-top: none;
+  margin-left: 4.7cm;
+  line-height: 2;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(162, 205, 216);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.profile-tab{
+  margin-left: 2px;
+  margin-top: 40px;
+  
+}
+#home{
+  text-align: center;
+  border: 2px solid#9744bb;
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+#profile{
+  text-align: center;
+  border: 2px solid#56acc4;
+  border-radius: 5px;
+  font-family: 'Times New Roman', Times, serif;
+}
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.img{
+    width: 2cm;
+    border-radius: 30mm;
+}
+
+.navbar-brand{
+  padding-left: 2mm;
+  padding: 2mm;
+}
+
+.phone{
+  width:40px;
+  height: 30px;
+  margin-left: 90px;
+}
+
+.mail{
+  width:40px;
+  height: 40px;
+  margin-left: 170px;
+}
+.address{
+  width:30px;
+  height: 30px;
+  margin-left: 170px;
+}
+.contact-fluid{
+  margin-top: 60px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.contact_form_name, .contact_form_email, .contact_form_phone{
+  text-align: center;
+  font-weight: bold;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: #dae6f5;
+  font-family: 'Times New Roman', Times, serif;
+}
+.contact_form_title{
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-size: larger;
+  text-align: center;
+  margin-bottom: 30px
+}
+.contact_submit_button{
+  border-radius: 5px;
+  color:white;
+  margin-top: 10px;
+  background-color: rgb(19, 110, 146);
+}
+.contact_submit_button:hover{
+  transform: scale(1.1); /* Scale up the button on hover */
+  box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.home-page{
+  background-image: url('./images/Back7.png'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  height: 100vh; 
+  color: rgb(12, 12, 12); 
+  text-align: center; 
+  padding-top: 5rem;
+}
+
+.home-div{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  font-family: 'Carter One', cursive;
+}
+
+.pt-5{
+  font-size: larger;
+  font-weight: 600;
+  color: rgb(7, 7, 7);
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  text-shadow: 
+        0 20px 5px rgba(0, 0, 0, 0.3);
+}
+
+.pt-10{
+  margin-top: 0.7cm;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 
+        0 20px 5px rgba(0, 0, 0, 0.3)
+}
+
+.pt-6{
+  color: rgb(2, 2, 2);
+  letter-spacing: 15px;
+  text-transform: uppercase;
+  margin-top: 0.7cm;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  text-shadow: 
+        0 20px 5px rgba(0, 0, 0, 0.3)
+}
+.signin-image{
+  width:10cm;
+  height:10cm;
+  margin-left: 20cm;
+  margin-top: 2cm;
+}
+
+.signin{
+  width:10cm;
+  height:11cm;
+
+}
+
+.form-title{
+  margin-bottom: 1.3cm;
+  font-weight: bold;
+  font-size:1cm;
+}
+
+.form-title1{
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.form-field{
+  margin-bottom: 25px;
+}
+
+.form-field1{
+  margin-bottom: 10px;
+}
+
+#email, #password, #cnfrmpassword, #phone, #name, #work{
+  border: 2px solid rgb(73, 70, 70);
+  border-radius: 10px;
+  width:7cm;
+  height:1cm;
+}
+
+.signin-form{
+  width:15cm;
+  height:10cm;
+  margin-top: -8cm;
+  margin-left: 7cm;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.zmdi-email, .zmdi-lock, .zmdi-slideshow, .zmdi-phone-in-talk, .zmdi-account{
+  margin-right:10px;
+}
+
+.nav-link{
+  margin-right: 25px;
+}
+.nav-link:hover{
+  font-weight: bold;
+}
+.nav-link.clicked{
+  text-decoration: underline;
+}
+
+
+
+.signup-image-link{
+  margin-left: -13cm;
+  margin-top: -8cm;
+  text-decoration:underline;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #282c34;
+  font-size: large;
+  font-weight: bold;
+}
+
+.signup-image{
+  width:10cm;
+  height:5cm;
+  
+}
+
+.sign-up{
+  width:12cm;
+  height:auto;
+  margin-left: 16cm;
+  margin-top: -11.5cm;
+}
+
+.signup-image-link1{
+  margin-left: 4cm;
+  margin-top: -3px;
+  text-decoration:underline;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #282c34;
+  font-size: large;
+  font-weight: bold;
+}
+
+.form-button{
+  margin-top: 1cm;
+  margin-left: -3.6cm;
+}
+
+.form-submit{
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #839ac7;
+}
+
+.form-submit1{
+  margin-top: 1cm;
+  border: 1px solid black;
+  border-radius: 5px;
+  background-color: #839ac7;
+}
+
+.signup-form{
+  width:100vb;
+  height:100dv;
+  margin-top: 2cm;
+  margin-left: 4cm;
+  font-family:'Times New Roman', Times, serif;
+}
+
+.form-submit:hover{
+  transform: scale(1.1); /* Scale up the button on hover */
+  box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-submit1:hover{
+  transform: scale(1.1); /* Scale up the button on hover */
+  box-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.not-found{
+  margin-top:40%;
+  margin-left: 30%;
+}
+.not-found{
+  margin-top:20px;
+  margin-left: 8cm;
+  justify-content: center;
+  align-items: center;
+}
+
+.not-found-404{
+  margin-left: 20px;
+}
+
+.pt-4{
+  font-size: 10cm;
+  color: #cae2eb;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pt-7{
+  margin-top: -8cm;
+  margin-left: 2cm;
+  font-size: 40px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.mb-5{
+  font-size: x-large;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 0.5cm;
+  margin-left: -1cm;
+}
+
+.nav-link1{
+  margin-left: 7cm;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #3d5c9b;
+  border:2px solid black;
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  padding: 10px;
+}
+
+.nav-link1:hover{
+  font-size: 21px;
+  text-shadow: 3px 4px 8px rgba(0, 0, 0, 0.1);
+  margin-left: 6.9cm;
+}
+
+.nav-item.active .nav-link {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Underline when active */
+.nav-item.active .nav-link {
+  text-decoration: underline;
+}
+
+.pt-8{
+  margin-left: 6cm;
+  margin-top: 5cm;
+  font-size: 4cm;
+  color: #cae2eb;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.com{
+  color: rgb(75, 177, 218);
+  font-size: 0.5cm;
+}
+
+.com1{
+  color: rgb(17, 17, 17);
+  font-size:0.5cm;
+}
